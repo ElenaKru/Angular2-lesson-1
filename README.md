@@ -83,6 +83,8 @@ npm uninstall takes 3 exclusive, optional flags which save or update the package
 
 -O, --save-optional: Package will be removed from your optionalDependencies.
 
+> Remove from all: `npm uninstall {pkg} --save --save-dev --save-optional
+`
 ## Angular default documents
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
