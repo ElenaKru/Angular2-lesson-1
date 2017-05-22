@@ -67,8 +67,21 @@
 - How to bring `jQuery` into `Angular2`: https://github.com/deebloo/JQUERY-TOKEN
 
 ## NPM
-### Check for outdated packages
+### Check for outdated packages in project
 `npm outdated`
+
+### Get last version of module
+`npm show {pkg} version`
+
+### Remove package
+`npm uninstall {pkg}`
+npm uninstall takes 3 exclusive, optional flags which save or update the package version in your main package.json:
+
+-S, --save: Package will be removed from your dependencies.
+
+-D, --save-dev: Package will be removed from your devDependencies.
+
+-O, --save-optional: Package will be removed from your optionalDependencies.
 
 ## Angular default documents
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
