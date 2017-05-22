@@ -66,6 +66,10 @@
 ## Additional resources
 - How to bring `jQuery` into `Angular2`: https://github.com/deebloo/JQUERY-TOKEN
 
+## NPM
+### Check for outdated packages
+`npm outdated`
+
 ## Angular default documents
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
 
