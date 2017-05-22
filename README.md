@@ -66,6 +66,11 @@
 ## Additional resources
 - How to bring `jQuery` into `Angular2`: https://github.com/deebloo/JQUERY-TOKEN
 
+## Update Angular2 to Angular4
+`npm i @angular/{common,compiler,core,forms,http,platform-browser,platform-browser-dynamic,platform-server,router}@next typescript@latest –S –E`
+
+`npm i @angular/compiler-cli@next --D -E`
+
 ## NPM
 ### Check for outdated packages in project
 `npm outdated`
