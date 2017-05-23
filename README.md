@@ -10,6 +10,7 @@
 
 #### Create app Flags
 - Dry-run before creating app: `ng new my-app --dry-run`
+> Dry-run alias: `-d`
 - Set styles extension: `ng new my-app --style less`
 - Set the default selector prefix: `ng new my-app --prefix ma`
 - Don’t add the project to git: `ng new my-app --skip-git`
@@ -59,6 +60,12 @@
 ### Module
 - Generate module: `ng generate module sample-module`
 > Using alias: `ng g m sample-module`
+- Generate module with routing: `ng g m sample-module --routing`
+> Notice that if we use routing with module every component that will be created under the same directory name of the module will declared inside the newly created module
+
+### Routing
+- Generate guard: `ng generate guard sample-guard`
+> Using alias: `ng g guard sample-guard`
 
 #### Module flags
 - Generate .module.spec.ts: `ng g m sample-module --spec true`
